@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftside">
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" width="50" />
+          <h1 class="sub-head">creativefuse</h1>
+        </div>
+       <!--
+        <div class="line">
+          <svg width="300" height="600" style="position: absolute;">
+          <line x1="86" y1="195" x2="86" y2="245"
+            style="stroke: #9ebadb;
+            stroke-width: 2;
+            stroke-dasharray: 3 3;
+            position: absolute;"
+          </line>
+
+          <line x1="86" y1="275" x2="86" y2="325"
+            style="stroke: #9ebadb;
+            stroke-width: 2;
+            stroke-dasharray: 3 3;
+            position: absolute;"
+          </line>
+
+          <line x1="86" y1="355" x2="86" y2="405"
+            style="stroke: #9ebadb;
+            stroke-width: 2;
+            stroke-dasharray: 3 3;
+            position: absolute;"
+          </line>
+          </svg>
+        </div>
+        -->
+
+        
+        <div class="radio">
+          <input type="radio" class="fontinradio" name="details" /> Introduction
+          <br /><br />
+          <input type="radio" class="fontinradio" name="details" /> Human Basics
+          <br /><br />
+          <input type="radio" class="fontinradio" name="details" /> HelpDesk Request
+          <br /><br />
+          <input type="radio" class="fontinradio" name="details" /> Confirmation
+        </div>
+        <div class="mount">
+          <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+            <g class="layer">
+             <title>Layer 1</title>
+             <rect fill="#4f759a" height="149" id="svg_1" width="276" x="0" y="329"/>
+             <line fill="none" id="svg_2" stroke="#4c4c4c" x1="0" x2="52" y1="449" y2="409"/>
+             <line fill="none" id="svg_12" stroke="#4c4c4c" x1="51" x2="82" y1="409" y2="438"/>
+             <line fill="none" id="svg_14" stroke="#4c4c4c" x1="81" x2="164" y1="436" y2="367"/>
+             <line fill="none" id="svg_15" stroke="#4c4c4c" x1="164" x2="283" y1="366" y2="452"/>
+             <ellipse cx="91" cy="351" fill="#2b5a75" id="svg_17" rx="13" ry="13" />
+            </g>
+           </svg>
+        </div>
+      </div>
+      <div class="rightside">
+        <h3>Hey there! Is it safe to assume you're in need of some help?</h3>
+        <h3>Well, no worries-- we've got your back! Let's get started on</h3>
+        <h3>your HelpDesk Ticket by filling out the info below.</h3>
+
+        <form method="post" action="">
+          <div class="log">
+            <label for="Name">Full Name</label>
+            <input
+              class="usr-psw"
+              type="text"
+              name="Full Name"
+              placeholder="You can call me"
+              required
+            />
+            <label for="Company">Company</label>
+            <input
+              class="usr-psw"
+              type="text"
+              name="Company Name"
+              placeholder="I Work here"
+              required
+            />
+            <label for="Email">Email</label>
+            <input
+              class="usr-psw"
+              type="email"
+              name="email id"
+              placeholder="You can send status updates here..."
+              required
+            />
+            <label for="Need">Request / Need</label>
+            <input class="usr-psw" type="text" name="request" />
+            <div class="btn">
+              <div>
+                <button id="sb">Something's broken</button>
+                <button id="cu">Content Updates</button>
+                <button id="anf">Add new functionality</button>
+                <button id="se">Something else</button>
+              </div>
+            </div>
+            <div>
+              <label for="Urgency" class="urgent">Urgency</label>
+              <input class="usr-psw" type="text" name="urgency" />
+              <div class="need">
+                <button id="new">Urgent</button>
+                <button id="old">Not Urgent</button>
+              </div>
+            </div>
+            <div class="mini">
+             <h4>Urgent Request will be prioritized over other items in our
+              pipeline. A 25% urgency change will added to the total
+              cost of the completed request.
+            </h4>
+            </div>
+
+            <div class="btn1">
+              <button id="back">Back</button>
+              <button id="next">Next</button>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
